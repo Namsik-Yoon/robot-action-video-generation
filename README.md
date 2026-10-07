@@ -3,7 +3,7 @@
 [DACON 2026 인하 인공지능 챌린지](https://dacon.io/competitions/official/236736/overview/description)를 활용한 첫 실제 프로젝트입니다.
 초기 이미지와 로봇 행동 시퀀스를 입력으로 받아 미래 영상을 생성하는 과제입니다.
 
-현재 단계는 **데이터 이해**입니다. 모델 학습·추론·제출은 아직 실행하지 않았습니다.
+현재 단계는 **작업 미완료 감지 문제의 데이터 적합성 검토**입니다. 모델 학습·추론·제출은 아직 실행하지 않았습니다.
 
 ## 최소 환경
 
@@ -34,6 +34,10 @@ uv run --group notebook jupyter lab notebooks/01_data_overview.ipynb
 ## 분석 및 다음 단계
 
 [초기 데이터 분석](docs/data-overview.md)을 먼저 읽으세요.
+
+[작업 미완료 감지 적합성 검토](docs/failure-feasibility.md)와
+`notebooks/02_failure_feasibility.ipynb`에서 성공/실패 후보 및 의도적 낙하 사례를 확인할 수 있습니다.
+이미지가 저장된 실행본은 로컬 `reports/local/02_failure_feasibility.executed.ipynb`에 있습니다.
 
 1. 학습 에피소드 하나의 영상·행동·상태를 함께 확인하기
 2. 에피소드 단위 검증 분리와 16-step 샘플링 정책 정의하기
