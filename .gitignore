@@ -1,0 +1,9 @@
+data/
+.venv/
+__pycache__/
+.DS_Store
+*.ckpt
+*.pt
+*.pth
+*.zip
+reports/local/
